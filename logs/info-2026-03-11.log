@@ -1,0 +1,6 @@
+{"level":"info","message":"🛢️  Database connected successfully","service":"default-service-name","timestamp":"2026-03-11 13:54:33"}
+{"level":"info","message":"⏱️  OTP TTL Index ensured","service":"default-service-name","timestamp":"2026-03-11 13:54:33"}
+{"level":"info","message":"🚀 Server is running on port 8000","service":"default-service-name","timestamp":"2026-03-11 13:54:33"}
+{"level":"info","message":"🛢️  Database connected successfully","service":"default-service-name","timestamp":"2026-03-11 13:55:12"}
+{"level":"info","message":"⏱️  OTP TTL Index ensured","service":"default-service-name","timestamp":"2026-03-11 13:55:13"}
+{"level":"info","message":"🚀 Server is running on port 8000","service":"default-service-name","timestamp":"2026-03-11 13:55:13"}
