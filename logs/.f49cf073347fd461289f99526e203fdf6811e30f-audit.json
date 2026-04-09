@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Personal\\family-legacy-social-platform-backend\\logs\\.f49cf073347fd461289f99526e203fdf6811e30f-audit.json",
+    "files": [
+        {
+            "date": 1775712893068,
+            "name": "D:\\Personal\\family-legacy-social-platform-backend\\logs\\info-2026-04-09.log",
+            "hash": "c4e48cc2f5e61ef6fea5303b8a265f42d2da674948a428b6611957edf2644cab"
+        }
+    ],
+    "hashType": "sha256"
+}

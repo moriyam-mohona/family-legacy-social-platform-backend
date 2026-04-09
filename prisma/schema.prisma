@@ -13,9 +13,62 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum CitizenshipType {
+  GENERATIONAL_ORIGINAL
+  NATURALISED
+  PERMANENT_RESIDENCY
+  OTHER
+}
+
+enum RelationshipStatus {
+  SINGLE
+  MARRIED
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
 model User {
+  id                 String              @id @default(auto()) @map("_id") @db.ObjectId
+  name               String
+  gender             String
+  dob                DateTime
+  phone              String?
+  image              String?
+  email              String              @unique
+  password           String
+  role               Role                @default(USER)
+  citizenship        CitizenshipType?
+  educationDetails   String?
+  relationshipStatus RelationshipStatus?
+  workStatus         String?
+
+  fatherName   String?
+  fatherMobile String?
+  fatherEmail  String?
+  fatherDob    DateTime?
+
+  motherName   String?
+  motherMobile String?
+  motherEmail  String?
+  motherDob    DateTime?
+
+  referralCode String?
+
+  isVerified Boolean @default(false)
+  isDeleted  Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model OTP {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  name      String
-  email     String   @unique
+  email     String
+  otp       String
+  type      String
+  expiresAt DateTime
   createdAt DateTime @default(now())
 }

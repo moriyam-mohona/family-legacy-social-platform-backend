@@ -1,0 +1,7 @@
+{"level":"info","message":"🛢️  Database connected successfully","service":"default-service-name","timestamp":"2026-04-09 11:34:53"}
+{"level":"info","message":"⏱️  OTP TTL Index ensured","service":"default-service-name","timestamp":"2026-04-09 11:34:54"}
+{"level":"info","message":"🚀 Server is running on port 8000","service":"default-service-name","timestamp":"2026-04-09 11:34:54"}
+{"level":"info","message":"Request processed - CRITICAL: 6273.90ms - POST /api/v1/auth/register","method":"POST","responseTime":"6273.90ms","service":"default-service-name","statusCode":201,"timeCategory":"CRITICAL","timestamp":"2026-04-09 11:39:03","url":"/api/v1/auth/register"}
+{"level":"info","message":"🛢️  Database connected successfully","service":"default-service-name","timestamp":"2026-04-09 11:40:06"}
+{"level":"info","message":"⏱️  OTP TTL Index ensured","service":"default-service-name","timestamp":"2026-04-09 11:40:08"}
+{"level":"info","message":"🚀 Server is running on port 8000","service":"default-service-name","timestamp":"2026-04-09 11:40:08"}
